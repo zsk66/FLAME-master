@@ -14,3 +14,6 @@ Mnist | 58,954 | [Kaggle](https://www.kaggle.com/datasets/andrewmvd/medical-mnis
 
 ## Start
 We provide two personalied federated learnign frameworks for the readers: FLAME and pFedMe.
+
+The default values for various parameters parsed to the experiment are given in options.py. Details are given on some of those parameters:
+
