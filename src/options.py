@@ -2,7 +2,7 @@ import argparse
 
 def args_parser():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--framework', type=str, default='FLAME', choices=["FLAME", "pFedMe"], help="type of federated learning framework")
+    parser.add_argument('--framework', type=str, default='FLAME', choices=["FLAME", 'pFedMe'], help="type of federated learning framework")
     parser.add_argument('--num_users', type=int, default=100, help="number of users, must be a multiple of 5")
     parser.add_argument('--q', type=int, default=2, help="number of labels in each client")
     parser.add_argument('--model', type=str, default='SVM', choices=['MLP', 'MLR', 'CNN', 'SVM'], help='model name')
