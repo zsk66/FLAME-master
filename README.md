@@ -45,12 +45,12 @@ The default values for various parameters parsed to the experiment are given in 
 
 * `mu:` hyperparameter in regularization term.
 
-*`Lambda:` hyperparameter in Moreau envelope.
+* `Lambda:` hyperparameter in Moreau envelope.
 
-*`rho:` hyperparameter in penalty term.
+* `rho:` hyperparameter in penalty term.
 
-*`iid:` data distribution, 0 for non iid.
+* `iid:` data distribution, 0 for non iid.
 
-*`seed:` random seed.
+* `seed:` random seed.
 
-*`eta:` learning rate for global model in pFedMe.
+* `eta:` learning rate for global model in pFedMe.
