@@ -15,9 +15,9 @@ Mmnist | 58,954 | [Kaggle](https://www.kaggle.com/datasets/andrewmvd/medical-mni
 ## Start
 
 The default values for various parameters parsed to the experiment are given in options.py. Details are given on some of those parameters:
-*`framework:` two personalied federated learnign frameworks, i.e., FLAME and pFedMe.
+* `framework:` two personalied federated learnign frameworks, i.e., FLAME and pFedMe.
 
-*`num_users:` number of users.
+* `num_users:` number of users.
 
 *`q:` number of data shards of each user.
 
