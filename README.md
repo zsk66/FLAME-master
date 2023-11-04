@@ -13,7 +13,8 @@ Fmnist | 70,000 | [Xiao et al.](https://arxiv.org/pdf/1708.07747.pdf) | MLP |
 Mmnist | 58,954 | [Kaggle](https://www.kaggle.com/datasets/andrewmvd/medical-mnist) | CNN
 
 ## Start
-We provide two personalied federated learnign frameworks for the readers: FLAME and pFedMe.
 
 The default values for various parameters parsed to the experiment are given in options.py. Details are given on some of those parameters:
-
+```
+--framework:
+``` we provide two personalied federated learnign frameworks for the readers: FLAME and pFedMe.
