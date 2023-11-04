@@ -16,22 +16,41 @@ Mmnist | 58,954 | [Kaggle](https://www.kaggle.com/datasets/andrewmvd/medical-mni
 
 The default values for various parameters parsed to the experiment are given in options.py. Details are given on some of those parameters:
 *`framework:` two personalied federated learnign frameworks, i.e., FLAME and pFedMe.
+
 *`num_users:` number of users.
+
 *`q:` number of data shards of each user.
+
 *`model:` SVM, MLP, MLR, CNN for choices.
+
 *`dataset:` four datasets for choices.
+
 *`strategy:` client selection strategy.
-*`frac_candidates:` fraction of clients candidates, c/m in our paper,
+
+*`frac_candidates:` fraction of clients candidates, c/m in our paper.
+
 *`frac:` fraction of clients, s/m in our paper.
+
 *`optimizer:` type of optimizer, default sgd.
+
 *`momentum:` sgd momentum, default 0.
+
 *`epoches:` number of communication rounds.
+
 *`local_ep:` number of local iterations.
+
 *`local_bs:` local batch size.
+
 *`lr:` learning rate.
+
 *`mu:` hyperparameter in regularization term.
+
 *`Lambda:` hyperparameter in Moreau envelope.
+
 *`rho:` hyperparameter in penalty term.
+
 *`iid:` data distribution, 0 for non iid.
+
 *`seed:` random seed.
+
 *`eta:` learning rate for global model in pFedMe.
